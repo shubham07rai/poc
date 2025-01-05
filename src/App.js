@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <><div>
-      <h1>Books CRUD</h1>
+      <h1>Books CRUD Operations</h1>
 
       <div>
         <input
@@ -52,7 +52,7 @@ const App = () => {
           value={newBook.title}
           onChange={(e) => setNewBook({ ...newBook, title: e.target.value })} />
         <input
-          type="text"
+          type="text" 
           placeholder="Author"
           value={newBook.author}
           onChange={(e) => setNewBook({ ...newBook, author: e.target.value })} />
