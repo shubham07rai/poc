@@ -1,5 +1,4 @@
-name: Build and Push Backend & Frontend Docker Images
-
+name: Build and Push Backend
 on:
   push:
     branches:
