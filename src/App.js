@@ -78,8 +78,6 @@ const App = () => {
         <React.Fragment>
           <title>Get Book Details</title>
           <button onClick={fetchBooks}> Fetch Books</button>
-          <button onClick={deleteBook}>Delete</button>
-
         </React.Fragment>
       </div>
       </>
